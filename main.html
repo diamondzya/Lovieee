@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>For My Lovieee 💖</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+    body {
+      font-family: 'Comfortaa', cursive;
+      margin: 0;
+      background: linear-gradient(to right, #ffd1dc, #ffe4ec);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: start;
+      min-height: 100vh;
+      padding: 20px 10px;
+    }
+
+    .slideshow-container {
+      position: relative;
+      max-width: 90%;
+      height: 60vh;
+      margin: 20px auto 10px;
+      border-radius: 20px;
+      overflow: hidden;
+      box-shadow: 0 0 20px #ffb6c1;
+    }
+
+    .mySlides {
+      display: none;
+      width: 100%;
+      height: 100%;
+      position: relative;
+      animation: fade 1s ease-in-out;
+    }
+
+    .mySlides img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .slide-caption {
+      position: absolute;
+      bottom: 20px;
+      width: 100%;
+      text-align: center;
+      color: white;
+      text-shadow: 0 0 10px #000;
+      font-size: 1.2em;
+      background: rgba(255, 182, 193, 0.3);
+      padding: 10px 0;
+    }
+
+    .prev, .next {
+      cursor: pointer;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      padding: 16px;
+      color: white;
+      font-weight: bold;
+      font-size: 22px;
+      border-radius: 50%;
+      background-color: rgba(255, 105, 180, 0.6);
+      user-select: none;
+      transition: 0.3s;
+    }
+
+    .prev:hover, .next:hover {
+      background-color: rgba(255, 105, 180, 0.9);
+    }
+
+    .prev {
+      left: 10px;
+    }
+
+    .next {
+      right: 10px;
+    }
+
+    .caption {
+      text-align: center;
+      color: #ff4e8b;
+      font-size: 1.5em;
+      margin-top: 10px;
+    }
+
+    .message {
+      max-width: 90%;
+      text-align: center;
+      margin-top: 20px;
+      font-size: 1.1em;
+      color: #b3005f;
+      background-color: #fff0f5;
+      padding: 15px 20px;
+      border-radius: 15px;
+      box-shadow: 0 0 10px rgba(255, 182, 193, 0.3);
+    }
+
+    audio {
+      display: none;
+    }
+
+    @keyframes fade {
+      from { opacity: 0.4; }
+      to { opacity: 1; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Background Music -->
+  <audio autoplay loop>
+    <source src="music/This I Promise You.mp3" type="audio/mp3">
+  </audio>
+
+  <!-- Slideshow -->
+  <div class="slideshow-container">
+    <div class="mySlides fade">
+      <img src="pictures/image1.jpg" alt="Slide 1">
+      <div class="slide-caption">Day 1 ✨</div>
+    </div>
+    <div class="mySlides fade">
+      <img src="pictures/image2.jpg" alt="Slide 2">
+      <div class="slide-caption">My Safe Place 💕</div>
+    </div>
+    <div class="mySlides fade">
+      <img src="pictures/image3.jpg" alt="Slide 3">
+      <div class="slide-caption">Forever Starts Here 🥹</div>
+    </div>
+    <div class="mySlides fade">
+      <img src="pictures/image3.0.jpg" alt="Slide 3">
+      <div class="slide-caption">Forever Starts Here 🥹</div>
+    </div>
+    <div class="mySlides fade">
+      <img src="pictures/image4.jpg" alt="Slide 4">
+      <div class="slide-caption">Giggles and Kiligs 💫</div>
+    </div>
+    <div class="mySlides fade">
+      <img src="pictures/image5.jpg" alt="Slide 5">
+      <div class="slide-caption">Holding Hands Always 🤍</div>
+    </div>
+    <div class="mySlides fade">
+      <img src="pictures/image6.jpg" alt="Slide 6">
+      <div class="slide-caption">My Favorite Person</div>
+    </div>
+    <div class="mySlides fade">
+      <img src="pictures/image6.0.jpg" alt="Slide 6">
+      <div class="slide-caption">My Favorite Person</div>
+    </div>
+    <div class="mySlides fade">
+      <img src="pictures/image6.1.jpg" alt="Slide 6">
+      <div class="slide-caption">My Favorite Person</div>
+    </div>
+    <div class="mySlides fade">
+      <img src="pictures/image6.2.jpg" alt="Slide 6">
+      <div class="slide-caption">My Favorite Person</div>
+    </div>
+    <div class="mySlides fade">
+      <img src="pictures/image6.3.jpg" alt="Slide 6">
+      <div class="slide-caption">My Favorite Person</div>
+    </div>
+    <div class="mySlides fade">
+      <img src="pictures/image7.jpg" alt="Slide 7">
+      <div class="slide-caption">Your Smile, My Peace ☁️</div>
+    </div>
+    <div class="mySlides fade">
+      <img src="pictures/image7.0.jpg" alt="Slide 7">
+      <div class="slide-caption">Your Smile, My Peace ☁️</div>
+    </div>
+    <div class="mySlides fade">
+      <img src="pictures/image7.1.jpg" alt="Slide 7">
+      <div class="slide-caption">Your Smile, My Peace ☁️</div>
+    </div>
+    <div class="mySlides fade">
+      <img src="pictures/image8.jpg" alt="Slide 8">
+      <div class="slide-caption">Every Memory Counts 📸</div>
+    </div>
+    <div class="mySlides fade">
+      <img src="pictures/image8.0.jpg" alt="Slide 8">
+      <div class="slide-caption">Every Memory Counts 📸</div>
+    </div>
+    <div class="mySlides fade">
+      <img src="pictures/image8.1.jpg" alt="Slide 8">
+      <div class="slide-caption">Every Memory Counts 📸</div>
+    </div>
+    <div class="mySlides fade">
+      <img src="pictures/image8.2.jpg" alt="Slide 8">
+      <div class="slide-caption">Every Memory Counts 📸</div>
+    </div>
+    <div class="mySlides fade">
+      <img src="pictures/image9.jpg" alt="Slide 9">
+      <div class="slide-caption">Our Kind of Love 🌸</div>
+    </div>
+    <div class="mySlides fade">
+      <img src="pictures/image9.0.jpg" alt="Slide 9">
+      <div class="slide-caption">Our Kind of Love 🌸</div>
+    </div>
+    <div class="mySlides fade">
+      <img src="pictures/image9.1.jpg" alt="Slide 9">
+      <div class="slide-caption">Our Kind of Love 🌸</div>
+    </div>
+    <div class="mySlides fade">
+      <img src="pictures/image9.2.jpg" alt="Slide 9">
+      <div class="slide-caption">Our Kind of Love 🌸</div>
+    </div>
+    <div class="mySlides fade">
+      <img src="pictures/image9.3.jpg" alt="Slide 9">
+      <div class="slide-caption">Our Kind of Love 🌸</div>
+    </div>
+    <div class="mySlides fade">
+      <img src="pictures/image9.4.jpg" alt="Slide 9">
+      <div class="slide-caption">Our Kind of Love 🌸</div>
+    </div>
+    <div class="mySlides fade">
+      <img src="pictures/image9.5.jpg" alt="Slide 9">
+      <div class="slide-caption">Our Kind of Love 🌸</div>
+    </div>
+    <div class="mySlides fade">
+      <img src="pictures/image9.6.jpg" alt="Slide 9">
+      <div class="slide-caption">Our Kind of Love 🌸</div>
+    </div>
+    <div class="mySlides fade">
+      <img src="pictures/image9.7.jpg" alt="Slide 9">
+      <div class="slide-caption">Our Kind of Love 🌸</div>
+    </div>
+    <div class="mySlides fade">
+      <img src="pictures/image9.8.jpg" alt="Slide 9">
+      <div class="slide-caption">Our Kind of Love 🌸</div>
+    </div>
+    <div class="mySlides fade">
+      <img src="pictures/image10.jpg" alt="Slide 10">
+      <div class="slide-caption">Always You & Me 💖</div>
+    </div>
+    <div class="mySlides fade">
+      <img src="pictures/image10.0.jpg" alt="Slide 10">
+      <div class="slide-caption">Always You & Me 💖</div>
+    </div>
+      <div class="mySlides fade">
+      <img src="pictures/image10.2.jpg" alt="Slide 10">
+      <div class="slide-caption">Always You & Me 💖</div>
+    </div>
+    <div class="mySlides fade">
+      <img src="pictures/image10.3.jpg" alt="Slide 10">
+      <div class="slide-caption">Always You & Me 💖</div>
+    </div>
+    <div class="mySlides fade">
+      <img src="pictures/image10.4.jpg" alt="Slide 11">
+      <div class="slide-caption">Always You & Me 💖</div>
+    </div>
+
+    <!-- Navigation Buttons -->
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+  </div>
+
+  <!-- Slideshow Caption -->
+  <div class="caption">This I Promise You 💞</div>
+
+  <!-- Sweet Message -->
+  <div class="message">
+    Mahal na mahal kita. Thank you for loving me the way you do.  
+    This is just a small way of showing how much you mean to me.  
+    I promise to always be here, to choose you in every lifetime.  
+    You are my home. You are my love. You are my forever. 💗
+  </div>
+
+  <!-- Script for Slides -->
+  <script>
+    let slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+
+    function showSlides(n) {
+      let i;
+      const slides = document.getElementsByClassName("mySlides");
+      if (n > slides.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      slides[slideIndex - 1].style.display = "block";
+    }
+  </script>
+</body>
+</html>
